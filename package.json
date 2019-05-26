@@ -1,0 +1,14 @@
+{
+  "name": "rrand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "wasm-pack build --release && rm pkg/package.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
